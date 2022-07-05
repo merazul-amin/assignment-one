@@ -1,0 +1,89 @@
+/*--------------Universal Section ---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.donate-button {
+    text-decoration: none;
+    display: inline-block;
+    background-color: tomato;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+/*-------------- Page top Section  ---------------*/
+
+.page-top {
+    width: 100vw;
+    height: 100vh;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+/*-------------- Donation Section  ---------------*/
+
+
+
+.donation-amount {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.money-section {
+    display: flex;
+}
+
+.money-section h2 {
+    width: 130px;
+    height: 100px;
+    box-shadow: 0px 0px 10px 1px gray;
+    margin: 20px 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#auto-selected {
+    background-color: rgba(228, 107, 86, 0.253);
+    color: tomato;
+    border: 2px solid tomato;
+}
+
+form {
+    margin-top: 50px;
+}
+
+#random-amount {
+    display: block;
+    width: 500px;
+    border: none;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    font-size: 18px;
+}
